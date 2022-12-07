@@ -1,0 +1,19 @@
+@use 'styles/color.scss';
+@use 'styles/flexbox.scss';
+@use 'styles/responsive.scss';
+@use 'styles/font.scss';
+
+.home {
+  width: 100%;
+  height: 100vh;
+  font-size: font.$SMALL;
+  color: color.$LIGHT_COLOR;
+  background-color: color.$MAIN_BLACK;
+  @include flexbox.flexbox(center, center);
+
+  @include responsive.after(DESKTOP) {
+    font-size: font.$LARGE;
+    color: color.$MAIN_BLACK;
+    background-color: color.$LIGHT_COLOR;
+  }
+}
