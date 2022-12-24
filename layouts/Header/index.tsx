@@ -5,7 +5,9 @@ function Header() {
   return (
     <header className={styles.header}>
       Codepied
-      <Link href="login">Login</Link>
+      <Link href="login">
+        <a>Login</a>
+      </Link>
     </header>
   );
 }
