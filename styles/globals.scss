@@ -1,3 +1,5 @@
+@use 'styles/color.scss';
+
 html,
 body,
 div,
@@ -133,4 +135,12 @@ a,
 a:active,
 a:hover {
   text-decoration: none;
+}
+
+button {
+  color: color.$MAIN_WHITE;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
 }
