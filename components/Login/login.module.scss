@@ -1,0 +1,28 @@
+@use 'styles/flexbox.scss';
+@use 'styles/responsive.scss';
+
+.login {
+  @include flexbox.flexbox(center, center);
+  width: 700px;
+  height: 400px;
+  margin-bottom: 60px;
+
+  @include responsive.after(DESKTOP) {
+    display: flex;
+  }
+}
+
+.form,
+.image {
+  width: 350px;
+  height: 100%;
+  border: 1px solid gray;
+}
+
+.image {
+  display: none;
+  border-left: none;
+  @include responsive.after(DESKTOP) {
+    display: block;
+  }
+}

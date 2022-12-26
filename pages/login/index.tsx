@@ -1,5 +1,12 @@
+import Login from 'components/Login';
+import styles from './login.module.scss';
+
 function login() {
-  return <div>1</div>;
+  return (
+    <div className={styles.loginContainer}>
+      <Login />
+    </div>
+  );
 }
 
 export default login;

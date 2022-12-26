@@ -20,6 +20,8 @@ module.exports = {
     'import/no-unresolved': 'off',
     'no-unused-vars': 'warn',
     'no-undef': 'off',
+    'react/require-default-props': 0,
+    'object-curly-newline': 'off',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {
