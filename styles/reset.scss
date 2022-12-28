@@ -1,5 +1,3 @@
-@use 'styles/color.scss';
-
 html,
 body,
 div,
@@ -133,12 +131,12 @@ table {
 
 a,
 a:active,
-a:hover {
+a:hover,
+a:visited {
   text-decoration: none;
 }
 
 button {
-  color: color.$MAIN_WHITE;
   cursor: pointer;
   background: none;
   border: none;

@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ['plugin:react/recommended', 'airbnb'],
+  extends: ['plugin:react/recommended', 'airbnb', 'prettier'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -22,6 +22,7 @@ module.exports = {
     'no-undef': 'off',
     'react/require-default-props': 0,
     'object-curly-newline': 'off',
+    'react/no-danger': 'off',
     'jsx-a11y/anchor-is-valid': [
       'error',
       {

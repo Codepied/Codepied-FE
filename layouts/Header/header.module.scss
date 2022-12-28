@@ -1,8 +1,7 @@
-@use 'styles/color.scss';
-
 .header {
   position: sticky;
   top: 0;
   height: 60px;
-  box-shadow: 0 -6px 6px 5px color.$HEADER_SHADOW;
+  color: var(--font-color);
+  background: var(--header-background);
 }
