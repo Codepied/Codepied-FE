@@ -1,10 +1,11 @@
-/* Codepied MAIN THEMES */
-$MAIN_BLACK: #1c1c1c;
-$MAIN_WHITE: #ffffff;
-$MAIN_GRAY: #878a8c;
+[data-theme='light'] {
+  --header-background: #ffffff;
+  --layout-background: #fafafa;
+  --font-color: #000000;
+}
 
-/* Domain COLOR */
-
-/* Header */
-$HEADER: #39a2db;
-$HEADER_SHADOW: #878a8c;
+[data-theme='dark'] {
+  --header-background: #000000;
+  --layout-background: #090909;
+  --font-color: #ffffff;
+}

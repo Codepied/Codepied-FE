@@ -1,3 +1,4 @@
+import ToggleTheme from 'layouts/ToggleTheme';
 import Link from 'next/link';
 import styles from './header.module.scss';
 
@@ -8,6 +9,7 @@ function Header() {
       <Link href="login">
         <a>Login</a>
       </Link>
+      <ToggleTheme />
     </header>
   );
 }
