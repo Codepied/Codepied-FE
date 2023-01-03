@@ -20,6 +20,7 @@ module.exports = {
     'import/no-unresolved': 'off',
     'no-unused-vars': 'warn',
     'no-undef': 'off',
+    'import/prefer-default-export': 'off',
     'react/require-default-props': 0,
     'object-curly-newline': 'off',
     'react/no-danger': 'off',
